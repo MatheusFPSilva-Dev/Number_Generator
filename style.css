@@ -146,11 +146,11 @@ h1 {
 }
 
 #NumSort {
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 500;
-    background: #ffffff6e;
+    background: #000000bb;
     border: 2px;
     border-radius: 9px;
     padding: 10px;
-    word-wrap: break-word;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

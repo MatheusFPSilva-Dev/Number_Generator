@@ -16,31 +16,31 @@
         <div class="container__conteudo">
             <div class="container__informacoes">
                 <div class="container__texto">
-                    <h1>Sorteador<span class="container__texto-azul"> de números</span></h1>
+                    <h1>Number<span class="container__texto-azul">Generator</span></h1>
                     <hr>
                     <div class="container__campo">
-                        <label class="texto__paragrafo">Quantidade de números</label>
+                        <label class="texto__paragrafo">Quantity of numbers</label>
                         <input class="container__input" id="quantidade" type="number" min="1">
                     </div>
                     
                     <div class="container__campo">
-                        <label class="texto__paragrafo">Do número</label>
+                        <label class="texto__paragrafo">of the number</label>
                         <input class="container__input" id="de" type="number" min="1">
                     </div>
                     
                     <div class="container__campo">
-                        <label class="texto__paragrafo">Até o número</label>
+                        <label class="texto__paragrafo">up to the number</label>
                         <input class="container__input" id="ate" type="number" min="1">
                     </div>
                 </div>
                 
                 <div class="chute container__botoes">
-                    <button onclick="sortear()" id="btn-sortear"  class="container__botao">Sortear</button>
-                    <button onclick="reiniciar()" id="btn-reiniciar" disabled="true" class="container__botao-desabilitado" >Reiniciar</button>
+                    <button onclick="sortear()" id="btn-sortear"  class="container__botao">Generate</button>
+                    <button onclick="reiniciar()" id="btn-reiniciar" disabled="true" class="container__botao-desabilitado" >Restart</button>
                 </div>
 
                 <div class="container__texto" id="resultado">
-                    <label class="texto__paragrafo">Números sorteados: <p id="NumSort"></p></label>
+                    <label class="texto__paragrafo">Numbers: <p id="NumSort"></p></label>
                 </div>
             </div>
 
